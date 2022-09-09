@@ -6,4 +6,4 @@ The names of the animation files relate to the images in the article Screening o
 in electroneutral disordered matrices of charged particles: Application of replica Ornstein–Zernike equations. For axample animation q11_4(Q=0,7).gif 
 is the animation of q11 correlation functions with the same parameters used as in fig.4 within the article with Q being 0,7. 
 The full lines represent the correlation functions for the templated system in my master thesys, the dotted lines are for the correlation functions 
-of the electroneutral system from the above mentioned article. The thesys as well as the animations are in Slovene.
+of the electroneutral adsorbent (refered to as electroneutral system by the authors of the above mentioned article)  from the above mentioned article. The thesys as well as the animations are in Slovene.
