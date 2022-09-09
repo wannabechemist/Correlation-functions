@@ -21,16 +21,16 @@ Lb=7.14
 pi=3.14
 rho0=c0*6.023/10000 #units should be 1/A^3 for each rho quantity
 rho0d=rho0*epsilon     #this is rho0'
-rho1=c1*6.023/10000     #this is rho1+ for the electroneutral sistem (the same as rho1- in this case)
+rho1=c1*6.023/10000     #this is rho1+ for the electroneutral adsorbent (the same as rho1- in this case)
 rhop1=c1*6.023/10000    #this is rho1+ for the new system
 rhom1=rhop1+rho0d    #this is rho1- for the new system
 a=4*pi*Lb*zp*z0
 c=4*pi*rho0*Lb
-k0old=4*pi*Lb*(2*rho0*z0**2)/Q # k0 squared for the electroneutral system
+k0old=4*pi*Lb*(2*rho0*z0**2)/Q # k0 squared for the electroneutral adsorbent
 k0=4*pi*Lb*(rho0*z0**2+rho0d*z0d**2)/Q #k0 squared for the new system
-k1=zp*zp*4*pi*Lb*(2*rho1) #k1 squared for the electroneutral system
+k1=zp*zp*4*pi*Lb*(2*rho1) #k1 squared for the electroneutral adsorbent
 
-#old aka electroneutral system
+#old aka electroneutral adsorbent
 q10_pp=-zp*z0*(Lb/(k0old-k1))*((k0old*np.exp(-np.sqrt(k0old)*r)/r)-(k1*np.exp(-np.sqrt(k1)*r)/r))
 q10_pm=-q10_pp
 
